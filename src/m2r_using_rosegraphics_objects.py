@@ -17,7 +17,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
 #     a. For the RoseGraphics coordinate system:
 #
 #        -- Where is the (0, 0) point on the screen?
-#              In the center
+#              Bottom left
 #
 #        -- In what direction on the screen
 #           does the positive X-axis point?
@@ -52,7 +52,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
 #                Center, fill color, radius
 #
 #     f. What does a RoseWindow RENDER method do?
-#            It delays the window from showing up
+#            It delays the window from showing up and fills in all the objects in the window
 #
 #     g. When is a RoseWindow close_on_mouse_click method call
 #        necessary?  Why?
